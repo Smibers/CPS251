@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TipCalculate</string>
+    <string name="convert_tips">Convert tips</string>
+    <string name="tip_amount_displayed_here">Tip amount displayed here</string>
+    <string name="bill_amount">Bill amount</string>
+    <string name="bill_total">bill total</string>
+</resources>
