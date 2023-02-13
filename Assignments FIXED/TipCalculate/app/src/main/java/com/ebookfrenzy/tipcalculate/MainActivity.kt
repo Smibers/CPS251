@@ -23,7 +23,14 @@ class MainActivity : AppCompatActivity() {
             val ten = dollarValue * 0.10f
             val fif = dollarValue * 0.15f
             val two = dollarValue * 0.20f
-            binding.output.text = ten.toString()+ " = 10%\n" + fif.toString()+ " = 15%\n" +two.toString()+ " = 20%"
+            binding.output.text = buildString {
+        append(ten.toString())
+        append(" = 10%\n")
+        append(fif.toString())
+        append(" = 15%\n")
+        append(two.toString())
+        append(" = 20%")
+    }
 
         } else {
             binding.output.text = "no dollar amount"
