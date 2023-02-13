@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
-    fun tipConvert(view: View, TextView: Any){
+    fun tipConvert(view: View){
 
         if (binding.billAmount.text.isNotEmpty()) {
             val dollarValue = binding.billAmount.text.toString().toFloat()
