@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SaveName</string>
+    <string name="mainfragment">MainFragment</string>
+    <string name="add_name">Add Name</string>
+    <string name="name">Name</string>
+    <string name="no_names_displayed">No Names Displayed</string>
+</resources>
